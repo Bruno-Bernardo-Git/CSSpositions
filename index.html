@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>CSS Positioning Exercise</title>
+  <style>
+    /* Write your code here */
+    * {
+      background-color: rgb(144, 196, 152);
+    }
+
+    .blue-box {
+      position: relative;
+      background-color: blue;
+      width: 500px;     
+      height: 300px;
+      top: 200px;
+      left: 200px; 
+    }
+
+    div > .red-circle{
+      position: absolute;
+      background-color: red;
+      height: 200px;
+      width: 200px;
+      border-radius: 50%;
+      top: 150px;
+      left: 250px;
+    } 
+
+    img {
+      position: fixed;
+      top: 215px;
+      left: 220px;
+      width: 250px;
+    }
+
+    </style>
+</head>
+
+<body>
+  <div class="blue-box" >
+    <div class="red-circle">
+    <div>
+      <img src="./assets/images/rick-roll.gif" />
+    </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
